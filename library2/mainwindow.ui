@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>1326</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_xml_version_1_0_encoding_UTF_8_ui_version_4_0_class_MainWindow_class_widget_class_QMainWindow_name_MainWindow_property_name_geometry_rect_x_0_x_y_0_y_width_800_width_height_600_height_rect_property_property_name_windowTitle_string_string_property_widget_class_QWidget_name_centralWidget_layout_class_QVBoxLayout_name_verticalLayout_item_widget_class_QTableView_name_tableView_property_name_selectionMode_enum_QAbstractItemView_SingleSelection_enum_property_property_name_selectionBehavior_enum_QAbstractItemView_SelectRows_enum_property_widget_item_item_layout_class_QHBoxLayout_name_horizontalLayout_item_widget_class_QPushButton_name_addButton_property_name_text_string_string_property_widget_item_item_widget_class_QPushButton_name_editButton_property_name_text_string_string_property_widget_item_item_widget_class_QPushButton_name_deleteButton_property_name_text_string_string_property_widget_item_item_widget_class_QPushButton_name_viewButton_property_name_text_string_string_property_widget_item_layout_item_layout_widget_widget_layoutdefault_spacing_6_margin_11_resources_connections_ui">
+    <property name="title">
+     <string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;class&gt;MainWindow&lt;/class&gt;
+ &lt;widget class=&quot;QMainWindow&quot; name=&quot;MainWindow&quot;&gt;
+  &lt;property name=&quot;geometry&quot;&gt;
+   &lt;rect&gt;
+    &lt;x&gt;0&lt;/x&gt;
+    &lt;y&gt;0&lt;/y&gt;
+    &lt;width&gt;800&lt;/width&gt;
+    &lt;height&gt;600&lt;/height&gt;
+   &lt;/rect&gt;
+  &lt;/property&gt;
+  &lt;property name=&quot;windowTitle&quot;&gt;
+   &lt;string&gt;Библиотечная система&lt;/string&gt;
+  &lt;/property&gt;
+  &lt;widget class=&quot;QWidget&quot; name=&quot;centralWidget&quot;&gt;
+   &lt;layout class=&quot;QVBoxLayout&quot; name=&quot;verticalLayout&quot;&gt;
+    &lt;item&gt;
+     &lt;widget class=&quot;QTableView&quot; name=&quot;tableView&quot;&gt;
+      &lt;property name=&quot;selectionMode&quot;&gt;
+       &lt;enum&gt;QAbstractItemView::SingleSelection&lt;/enum&gt;
+      &lt;/property&gt;
+      &lt;property name=&quot;selectionBehavior&quot;&gt;
+       &lt;enum&gt;QAbstractItemView::SelectRows&lt;/enum&gt;
+      &lt;/property&gt;
+     &lt;/widget&gt;
+    &lt;/item&gt;
+    &lt;item&gt;
+     &lt;layout class=&quot;QHBoxLayout&quot; name=&quot;horizontalLayout&quot;&gt;
+      &lt;item&gt;
+       &lt;widget class=&quot;QPushButton&quot; name=&quot;addButton&quot;&gt;
+        &lt;property name=&quot;text&quot;&gt;
+         &lt;string&gt;Добавить книгу&lt;/string&gt;
+        &lt;/property&gt;
+       &lt;/widget&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+       &lt;widget class=&quot;QPushButton&quot; name=&quot;editButton&quot;&gt;
+        &lt;property name=&quot;text&quot;&gt;
+         &lt;string&gt;Редактировать&lt;/string&gt;
+        &lt;/property&gt;
+       &lt;/widget&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+       &lt;widget class=&quot;QPushButton&quot; name=&quot;deleteButton&quot;&gt;
+        &lt;property name=&quot;text&quot;&gt;
+         &lt;string&gt;Удалить&lt;/string&gt;
+        &lt;/property&gt;
+       &lt;/widget&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+       &lt;widget class=&quot;QPushButton&quot; name=&quot;viewButton&quot;&gt;
+        &lt;property name=&quot;text&quot;&gt;
+         &lt;string&gt;Просмотр&lt;/string&gt;
+        &lt;/property&gt;
+       &lt;/widget&gt;
+      &lt;/item&gt;
+     &lt;/layout&gt;
+    &lt;/item&gt;
+   &lt;/layout&gt;
+  &lt;/widget&gt;
+ &lt;/widget&gt;
+ &lt;layoutdefault spacing=&quot;6&quot; margin=&quot;11&quot;/&gt;
+ &lt;resources/&gt;
+ &lt;connections/&gt;
+&lt;/ui&gt;</string>
+    </property>
+   </widget>
+   <addaction name="menu_xml_version_1_0_encoding_UTF_8_ui_version_4_0_class_MainWindow_class_widget_class_QMainWindow_name_MainWindow_property_name_geometry_rect_x_0_x_y_0_y_width_800_width_height_600_height_rect_property_property_name_windowTitle_string_string_property_widget_class_QWidget_name_centralWidget_layout_class_QVBoxLayout_name_verticalLayout_item_widget_class_QTableView_name_tableView_property_name_selectionMode_enum_QAbstractItemView_SingleSelection_enum_property_property_name_selectionBehavior_enum_QAbstractItemView_SelectRows_enum_property_widget_item_item_layout_class_QHBoxLayout_name_horizontalLayout_item_widget_class_QPushButton_name_addButton_property_name_text_string_string_property_widget_item_item_widget_class_QPushButton_name_editButton_property_name_text_string_string_property_widget_item_item_widget_class_QPushButton_name_deleteButton_property_name_text_string_string_property_widget_item_item_widget_class_QPushButton_name_viewButton_property_name_text_string_string_property_widget_item_layout_item_layout_widget_widget_layoutdefault_spacing_6_margin_11_resources_connections_ui"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
